@@ -22,6 +22,7 @@
 :host ::ng-deep angular-file-uploader .container .afu-constraints-info {
     color: #C1C1C1;
 }
+
 :host ::ng-deep angular-file-uploader .container .afu-upload-btn {
     color: white;
     background-color: #7B1FA2;
@@ -29,4 +30,7 @@
     width: 25%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+:host ::ng-deep angular-file-uploader .container .afu-valid-file .text-primary {
+    color: #C1C1C1 !important;
 }
