@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { AngularFileUploaderModule } from 'angular-file-uploader';
 
 import { ImageViewerComponent } from './components/image-viewer/image-viewer.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
@@ -30,7 +31,8 @@ import { ImagesViewComponent } from './views/images-view/images-view.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    AngularFileUploaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

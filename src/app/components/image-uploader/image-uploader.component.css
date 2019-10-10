@@ -1,0 +1,32 @@
+:host ::ng-deep angular-file-uploader .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+:host ::ng-deep angular-file-uploader #dragNDrop {
+    width: 100%;
+}
+
+:host ::ng-deep angular-file-uploader #dragNDrop .div1 {
+    width: auto;
+    height: auto;
+}
+
+:host ::ng-deep angular-file-uploader #dragNDrop .afu-dragndrop-text {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+:host ::ng-deep angular-file-uploader .container .afu-constraints-info {
+    color: #C1C1C1;
+}
+:host ::ng-deep angular-file-uploader .container .afu-upload-btn {
+    color: white;
+    background-color: #7B1FA2;
+    border: none;
+    width: 25%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
