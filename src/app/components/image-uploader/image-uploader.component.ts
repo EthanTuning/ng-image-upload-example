@@ -11,19 +11,15 @@ import { Component, OnInit } from '@angular/core';
 export class ImageUploaderComponent implements OnInit {
 
   afuConfig = {
-
       multiple: false,
-      formatsAllowed: '.jpg,.png',
-      maxSize: '1',
+      formatsAllowed: '.jpg,.png,.jpeg',
+      maxSize: '3',
       uploadAPI:  {
-
-        url: 'https://example-file-upload-api',
+        url: 'https://image-upload-api-test.azurewebsites.net//api/image',
+        method: 'POST',
         headers: {
 
-          'Content-Type' : 'text/plain;charset=UTF-8'
-
         }
-
       },
       theme: 'dragNDrop',
       hideProgressBar: true,
@@ -36,11 +32,9 @@ export class ImageUploaderComponent implements OnInit {
         uploadBtn: 'Upload',
         dragNDropBox: 'Drag N Drop',
         attachPinBtn: 'Attach Files...',
-        afterUploadMsg_success: 'Successfully Uploaded !',
-        afterUploadMsg_error: 'Upload Failed !'
-
+        afterUploadMsg_success: 'Successfully Uploaded!',
+        afterUploadMsg_error: 'Upload Failed!'
       }
-
   };
 
   constructor() { }
