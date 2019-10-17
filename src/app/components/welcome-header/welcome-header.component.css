@@ -1,11 +1,11 @@
 #header {
     background: #7B1FA2;
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 15rem;
     padding-top: 64px;
-    overflow-y: auto;
+}
+
+#header-text {
+    padding-top: 2rem;
 }
 
 h1, h2 {

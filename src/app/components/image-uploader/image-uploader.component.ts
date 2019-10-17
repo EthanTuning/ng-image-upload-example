@@ -7,9 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./image-uploader.component.css']
 
 })
-export class ImageUploaderComponent implements OnInit {
 
-  token = '';
+export class ImageUploaderComponent implements OnInit {
 
   afuConfig = {
 
@@ -21,8 +20,7 @@ export class ImageUploaderComponent implements OnInit {
         url: 'https://example-file-upload-api',
         headers: {
 
-          'Content-Type' : 'text/plain;charset=UTF-8',
-          Authorization : `Bearer ${this.token}`
+          'Content-Type' : 'text/plain;charset=UTF-8'
 
         }
 
